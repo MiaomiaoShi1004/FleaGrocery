@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AACEDAEB2B6D739500C72E76 /* FleaGroceryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACEDAEA2B6D739500C72E76 /* FleaGroceryApp.swift */; };
+		AACEDAED2B6D739500C72E76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACEDAEC2B6D739500C72E76 /* ContentView.swift */; };
+		AACEDAEF2B6D739600C72E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACEDAEE2B6D739600C72E76 /* Assets.xcassets */; };
+		AACEDAF22B6D739600C72E76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACEDAF12B6D739600C72E76 /* Preview Assets.xcassets */; };
+		AACEDAFC2B6D739700C72E76 /* FleaGroceryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACEDAFB2B6D739700C72E76 /* FleaGroceryTests.swift */; };
+		AACEDB062B6D739700C72E76 /* FleaGroceryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACEDB052B6D739700C72E76 /* FleaGroceryUITests.swift */; };
+		AACEDB082B6D739700C72E76 /* FleaGroceryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACEDB072B6D739700C72E76 /* FleaGroceryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AACEDAF82B6D739700C72E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AACEDADF2B6D739500C72E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AACEDAE62B6D739500C72E76;
+			remoteInfo = FleaGrocery;
+		};
+		AACEDB022B6D739700C72E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AACEDADF2B6D739500C72E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AACEDAE62B6D739500C72E76;
+			remoteInfo = FleaGrocery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AACEDAE72B6D739500C72E76 /* FleaGrocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FleaGrocery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACEDAEA2B6D739500C72E76 /* FleaGroceryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleaGroceryApp.swift; sourceTree = "<group>"; };
+		AACEDAEC2B6D739500C72E76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AACEDAEE2B6D739600C72E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AACEDAF12B6D739600C72E76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AACEDAF72B6D739700C72E76 /* FleaGroceryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleaGroceryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACEDAFB2B6D739700C72E76 /* FleaGroceryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleaGroceryTests.swift; sourceTree = "<group>"; };
+		AACEDB012B6D739700C72E76 /* FleaGroceryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleaGroceryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACEDB052B6D739700C72E76 /* FleaGroceryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleaGroceryUITests.swift; sourceTree = "<group>"; };
+		AACEDB072B6D739700C72E76 /* FleaGroceryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleaGroceryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AACEDAE42B6D739500C72E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACEDAF42B6D739700C72E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACEDAFE2B6D739700C72E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AACEDADE2B6D739500C72E76 = {
+			isa = PBXGroup;
+			children = (
+				AACEDAE92B6D739500C72E76 /* FleaGrocery */,
+				AACEDAFA2B6D739700C72E76 /* FleaGroceryTests */,
+				AACEDB042B6D739700C72E76 /* FleaGroceryUITests */,
+				AACEDAE82B6D739500C72E76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AACEDAE82B6D739500C72E76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AACEDAE72B6D739500C72E76 /* FleaGrocery.app */,
+				AACEDAF72B6D739700C72E76 /* FleaGroceryTests.xctest */,
+				AACEDB012B6D739700C72E76 /* FleaGroceryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AACEDAE92B6D739500C72E76 /* FleaGrocery */ = {
+			isa = PBXGroup;
+			children = (
+				AACEDAEA2B6D739500C72E76 /* FleaGroceryApp.swift */,
+				AACEDAEC2B6D739500C72E76 /* ContentView.swift */,
+				AACEDAEE2B6D739600C72E76 /* Assets.xcassets */,
+				AACEDAF02B6D739600C72E76 /* Preview Content */,
+			);
+			path = FleaGrocery;
+			sourceTree = "<group>";
+		};
+		AACEDAF02B6D739600C72E76 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AACEDAF12B6D739600C72E76 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AACEDAFA2B6D739700C72E76 /* FleaGroceryTests */ = {
+			isa = PBXGroup;
+			children = (
+				AACEDAFB2B6D739700C72E76 /* FleaGroceryTests.swift */,
+			);
+			path = FleaGroceryTests;
+			sourceTree = "<group>";
+		};
+		AACEDB042B6D739700C72E76 /* FleaGroceryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AACEDB052B6D739700C72E76 /* FleaGroceryUITests.swift */,
+				AACEDB072B6D739700C72E76 /* FleaGroceryUITestsLaunchTests.swift */,
+			);
+			path = FleaGroceryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AACEDAE62B6D739500C72E76 /* FleaGrocery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACEDB0B2B6D739700C72E76 /* Build configuration list for PBXNativeTarget "FleaGrocery" */;
+			buildPhases = (
+				AACEDAE32B6D739500C72E76 /* Sources */,
+				AACEDAE42B6D739500C72E76 /* Frameworks */,
+				AACEDAE52B6D739500C72E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FleaGrocery;
+			productName = FleaGrocery;
+			productReference = AACEDAE72B6D739500C72E76 /* FleaGrocery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AACEDAF62B6D739700C72E76 /* FleaGroceryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACEDB0E2B6D739700C72E76 /* Build configuration list for PBXNativeTarget "FleaGroceryTests" */;
+			buildPhases = (
+				AACEDAF32B6D739700C72E76 /* Sources */,
+				AACEDAF42B6D739700C72E76 /* Frameworks */,
+				AACEDAF52B6D739700C72E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AACEDAF92B6D739700C72E76 /* PBXTargetDependency */,
+			);
+			name = FleaGroceryTests;
+			productName = FleaGroceryTests;
+			productReference = AACEDAF72B6D739700C72E76 /* FleaGroceryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AACEDB002B6D739700C72E76 /* FleaGroceryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACEDB112B6D739700C72E76 /* Build configuration list for PBXNativeTarget "FleaGroceryUITests" */;
+			buildPhases = (
+				AACEDAFD2B6D739700C72E76 /* Sources */,
+				AACEDAFE2B6D739700C72E76 /* Frameworks */,
+				AACEDAFF2B6D739700C72E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AACEDB032B6D739700C72E76 /* PBXTargetDependency */,
+			);
+			name = FleaGroceryUITests;
+			productName = FleaGroceryUITests;
+			productReference = AACEDB012B6D739700C72E76 /* FleaGroceryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AACEDADF2B6D739500C72E76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AACEDAE62B6D739500C72E76 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					AACEDAF62B6D739700C72E76 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AACEDAE62B6D739500C72E76;
+					};
+					AACEDB002B6D739700C72E76 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AACEDAE62B6D739500C72E76;
+					};
+				};
+			};
+			buildConfigurationList = AACEDAE22B6D739500C72E76 /* Build configuration list for PBXProject "FleaGrocery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AACEDADE2B6D739500C72E76;
+			productRefGroup = AACEDAE82B6D739500C72E76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AACEDAE62B6D739500C72E76 /* FleaGrocery */,
+				AACEDAF62B6D739700C72E76 /* FleaGroceryTests */,
+				AACEDB002B6D739700C72E76 /* FleaGroceryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AACEDAE52B6D739500C72E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACEDAF22B6D739600C72E76 /* Preview Assets.xcassets in Resources */,
+				AACEDAEF2B6D739600C72E76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACEDAF52B6D739700C72E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACEDAFF2B6D739700C72E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AACEDAE32B6D739500C72E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACEDAED2B6D739500C72E76 /* ContentView.swift in Sources */,
+				AACEDAEB2B6D739500C72E76 /* FleaGroceryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACEDAF32B6D739700C72E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACEDAFC2B6D739700C72E76 /* FleaGroceryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACEDAFD2B6D739700C72E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACEDB082B6D739700C72E76 /* FleaGroceryUITestsLaunchTests.swift in Sources */,
+				AACEDB062B6D739700C72E76 /* FleaGroceryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AACEDAF92B6D739700C72E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AACEDAE62B6D739500C72E76 /* FleaGrocery */;
+			targetProxy = AACEDAF82B6D739700C72E76 /* PBXContainerItemProxy */;
+		};
+		AACEDB032B6D739700C72E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AACEDAE62B6D739500C72E76 /* FleaGrocery */;
+			targetProxy = AACEDB022B6D739700C72E76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AACEDB092B6D739700C72E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AACEDB0A2B6D739700C72E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AACEDB0C2B6D739700C72E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FleaGrocery/Preview Content\"";
+				DEVELOPMENT_TEAM = FF54H898ZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fleabag.solutions.FleaGrocery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AACEDB0D2B6D739700C72E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FleaGrocery/Preview Content\"";
+				DEVELOPMENT_TEAM = FF54H898ZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fleabag.solutions.FleaGrocery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AACEDB0F2B6D739700C72E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF54H898ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fleabag.solutions.FleaGroceryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FleaGrocery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FleaGrocery";
+			};
+			name = Debug;
+		};
+		AACEDB102B6D739700C72E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF54H898ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fleabag.solutions.FleaGroceryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FleaGrocery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FleaGrocery";
+			};
+			name = Release;
+		};
+		AACEDB122B6D739700C72E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF54H898ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fleabag.solutions.FleaGroceryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FleaGrocery;
+			};
+			name = Debug;
+		};
+		AACEDB132B6D739700C72E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF54H898ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fleabag.solutions.FleaGroceryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FleaGrocery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AACEDAE22B6D739500C72E76 /* Build configuration list for PBXProject "FleaGrocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACEDB092B6D739700C72E76 /* Debug */,
+				AACEDB0A2B6D739700C72E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACEDB0B2B6D739700C72E76 /* Build configuration list for PBXNativeTarget "FleaGrocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACEDB0C2B6D739700C72E76 /* Debug */,
+				AACEDB0D2B6D739700C72E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACEDB0E2B6D739700C72E76 /* Build configuration list for PBXNativeTarget "FleaGroceryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACEDB0F2B6D739700C72E76 /* Debug */,
+				AACEDB102B6D739700C72E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACEDB112B6D739700C72E76 /* Build configuration list for PBXNativeTarget "FleaGroceryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACEDB122B6D739700C72E76 /* Debug */,
+				AACEDB132B6D739700C72E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AACEDADF2B6D739500C72E76 /* Project object */;
+}
